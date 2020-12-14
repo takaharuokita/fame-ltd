@@ -456,8 +456,9 @@ img.spnav03 {
 }
 
 .header .header-inner .room705 {
-    width: 160px;
-    height: 18px;
+    width: 220px;
+    /* height: 16px; */
+    transform: translateX(-35px);
     vertical-align: middle;
 }
 
@@ -1144,6 +1145,30 @@ img.spnav03 {
     content: "";
 }
 
+.company-contena {
+    background: url("../img/company/company-bg.jpg") no-repeat top -120px center/cover;
+}
+
+.company-contena h1 {
+    height: 150px;
+}
+
+.company-contena h1 img {
+    width: 30vw;
+}
+
+.contact-contena {
+    background: url("../img/contact/contact-bg.jpg") no-repeat bottom -300px center/cover;
+}
+
+.contact-contena h1 {
+    height: 150px;
+}
+
+.contact-contena h1 img {
+    width: 30vw;
+}
+
 .company-content__ttl {
     margin-top: 200px;
     margin-bottom: 80px;
@@ -1154,7 +1179,7 @@ img.spnav03 {
 }
 
 .company-content-title__img {
-    height: 22px;
+    height: 40px;
 }
 
 .company-contents__list {
@@ -1262,6 +1287,7 @@ img.spnav03 {
     width: 100%;
     height: auto;
     overflow: hidden;
+    box-shadow: 0px 2px 20px 0px #8e8e8e;
 }
 
 .about-kv .about-swiper-container {
@@ -1305,8 +1331,8 @@ img.spnav03 {
 .about-kv__logo img {
     z-index: 90;
     position: absolute;
-    top: 30%;
-    height: 100px;
+    top: 38%;
+    height: 160px;
 }
 
 .about-sec01 {
@@ -4081,6 +4107,29 @@ img.spnav03 {
         width: 100%;
         margin: 75px auto 0;
         font-size: 18px;
+    }
+    .inner p {
+        letter-spacing: 2px;
+    }
+    .company-contena {
+        margin-bottom: -70px;
+    }
+    .company-contena h1 img {
+        display: none;
+    }
+    .company-contena h1 {
+        height: 150px;
+        margin-bottom: -100px;
+    }
+    .contact-contena {
+        margin-bottom: -70px;
+    }
+    .contact-contena h1 img {
+        display: none;
+    }
+    .contact-contena h1 {
+        height: 150px;
+        margin-bottom: -100px;
     }
 }
 
